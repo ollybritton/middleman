@@ -1,0 +1,31 @@
+.task {
+  padding: 30px 20px 60px;
+  border-radius: 10px;
+  background: #F7E999;
+  position: relative;
+}
+
+.task.milestone {
+  background: #D7D0ED !important;
+}
+
+.task h2,
+.task strong {
+  color: #1D3461;
+}
+
+.task em {
+  font-style: normal;
+  border-bottom: 1px solid #aaa;
+}
+
+.task .read-more {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.task code {
+  color: #1CAF96;
+}
+

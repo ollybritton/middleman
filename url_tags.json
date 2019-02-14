@@ -1,0 +1,20 @@
+{
+    "a": ["href"],
+    "applet": ["codebase"],
+    "area": ["href"],
+    "base": ["href"],
+    "blockquote": ["cite"],
+    "body": ["background"],
+    "del": ["cite"],
+    "form": ["action"],
+    "frame": ["longdesc", "src"],
+    "head": ["profile"],
+    "iframe": ["longdesc", "src"],
+    "img": ["longdesc", "src", "usemap"],
+    "input": ["src", "usemap"],
+    "ins": ["cite"],
+    "link": ["href"],
+    "object": ["classid", "codebase", "data", "usemap"],
+    "q": ["cite"],
+    "script": ["src"]
+}
