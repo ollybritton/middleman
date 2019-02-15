@@ -6,7 +6,7 @@ import urllib
 import json
 import time
 
-from fix_document import fix_document, request_root
+import utils
 
 app = Flask(__name__)
 
@@ -23,7 +23,7 @@ def get_script_to_insert():
 
 @app.route("/<path:url>")
 def get_url(url):
-    root_url = request_root(url)
+    root_url = utils.get_root_url(url)
     data = requests.get(url)
 
     document = BeautifulSoup(data.text, "html.parser")
